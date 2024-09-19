@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background-color: #eff3bf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  background-color: #fff;
+  width: 510px;
+  height: 715px;
+  border-radius: 60px;
+  text-align: center;
+}
+
+.head {
+  background-color: #bc5473;
+  width: 510px;
+  height: 285px;
+  border-radius: 60px 60px 0px 0px;
+}
+
+.image1 img {
+  width: 190px;
+  height: 170px;
+  border-radius: 50%;
+  margin-top: 45px;
+}
+
+.text1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+.text2 {
+  color: #000000;
+  font-size: 15px;
+}
+
+.icons {
+  font-size: 27px;
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  margin-top: 40px;
+  color: inherit;
+}
+
+.icons a {
+  color: inherit;
+}
+
+.conteiner {
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  margin-top: 35px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 40px;
+}
+
+.group1 {
+  background-color: #df3f8c;
+  width: 190px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.text3 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.group2 {
+  background-color: #ffffff;
+  width: 190px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.text4 {
+  color: #838383;
+  font-size: 20px;
+}
